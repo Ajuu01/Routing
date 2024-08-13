@@ -1,9 +1,9 @@
-import './Home.modules.css'
+import css from './Home.modules.css'
 const Home=()=>{
     return(
         <div>
-            <h3 className="title">Home Title</h3>
-            <p className="text">Hello, This is home page.</p>
+            <h3 className={css.title}>Home Title</h3>
+            <p className={css.text}>Hello, This is home page.</p>
         </div>
     );
 };
